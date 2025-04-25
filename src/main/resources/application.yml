@@ -1,0 +1,12 @@
+server:
+  port: 8080
+spring:
+  application:
+      name: demo
+  datasource:
+    url: jdbc:mysql://39.106.150.26:3306/my_db?useSSL=false&serverTimezone=Asia/Shanghai
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  transaction:
+    default-time: 30000
