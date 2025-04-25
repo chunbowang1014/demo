@@ -11,6 +11,7 @@ public class TestController {
     @Resource
     UserService userService;
 
+    /* this is method*/
     @GetMapping(value = "/sayHello")
     public String SayHello() {
         return userService.getUserInfo();
